@@ -1,0 +1,90 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+
+input {
+  width: 15px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  font-size: 18px;
+}
+
+#ans {
+  width: 40px;
+  height: 30px;
+  font-size: 24px;
+}
+
+.ruler {
+  width: 875px;
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  background-image: url(sprite.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.conteiner  {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.arrow {
+  /*border: 1px solid black;*/
+  height: 110px;
+  width: 37.5px;
+  margin-bottom: 63px;
+  background-image: url(arrow.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.yellow {
+  background-color: orange;
+  border-radius: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+#num1 {
+  margin-left: 35px;
+}
+
+#arrow1 {
+  margin-left: 35px;
+}
+
+#ans1 {
+  width: 15px;
+  font-size: 18px;
+}
+
+#ans2 {
+  width: 15px;
+  font-size: 18px;
+}
+
+#example {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 24px;
+}
+
+#firstNum {
+  width:20px;
+  text-align: center;
+}
+
+#secondNum {
+  width:20px;
+  text-align: center;
+}
