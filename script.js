@@ -102,41 +102,28 @@ squares6.addEventListener("mouseenter", function () {
 });
 
 squares1.addEventListener("mouseleave", function () {
-  animation1.gotoAndStop(0);
+  this.gotoAndStop(0);
 });
 
 squares2.addEventListener("mouseleave", function () {
-  animation2.gotoAndStop(0);
+  this.gotoAndStop(0);
 });
 
 squares3.addEventListener("mouseleave", function () {
-  animation3.gotoAndStop(0);
+  this.gotoAndStop(0);
 });
 
 squares4.addEventListener("mouseleave", function () {
-  animation4.gotoAndStop(0);
+  this.gotoAndStop(0);
 });
 
 squares5.addEventListener("mouseleave", function () {
-  animation5.gotoAndStop(0);
+  this.gotoAndStop(0);
 });
 
 squares6.addEventListener("mouseleave", function () {
-  animation6.gotoAndStop(0);
+  this.gotoAndStop(0);
 });
-
-/*function playAnim(anim, loop) {
-    if(anim.isPaused) {
-        anim.loop = loop;
-        anim.goToAndPlay(0);
-    }
-}
-
-function pauseAnim(anim) {
-    if (!anim.isPaused) {
-        anim.loop = false;
-    }
-}*/
 
 var count = 1;
 var first = document.getElementById("first");
