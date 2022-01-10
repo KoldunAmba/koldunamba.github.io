@@ -32,7 +32,7 @@ var progress3 = bodymovin.loadAnimation({
 var animation1 = bodymovin.loadAnimation({
 	container: document.getElementById('anim1'),
 	renderer: 'svg',
-	loop: true,
+	loop: false,
 	autoplay: false,
 	path: 'lottie/speedometer.json'
 });
@@ -40,7 +40,7 @@ var animation1 = bodymovin.loadAnimation({
 var animation2 = bodymovin.loadAnimation({
 	container: document.getElementById('anim2'),
 	renderer: 'svg',
-	loop: true,
+	loop: false,
 	autoplay: false,
 	path: 'lottie/scales.json'
 });
@@ -48,7 +48,7 @@ var animation2 = bodymovin.loadAnimation({
 var animation3 = bodymovin.loadAnimation({
 	container: document.getElementById('anim3'),
 	renderer: 'svg',
-	loop: true,
+	loop: false,
 	autoplay: false,
 	path: 'lottie/figures.json'
 });
@@ -56,7 +56,7 @@ var animation3 = bodymovin.loadAnimation({
 var animation4 = bodymovin.loadAnimation({
 	container: document.getElementById('anim4'),
 	renderer: 'svg',
-	loop: true,
+	loop: false,
 	autoplay: false,
 	path: 'lottie/variability.json'
 });
@@ -64,7 +64,7 @@ var animation4 = bodymovin.loadAnimation({
 var animation5 = bodymovin.loadAnimation({
 	container: document.getElementById('anim5'),
 	renderer: 'svg',
-	loop: true,
+	loop: false,
 	autoplay: false,
 	path: 'lottie/camera.json'
 });
@@ -72,7 +72,7 @@ var animation5 = bodymovin.loadAnimation({
 var animation6 = bodymovin.loadAnimation({
 	container: document.getElementById('anim6'),
 	renderer: 'svg',
-	loop: true,
+	loop: false,
 	autoplay: false,
 	path: 'lottie/gift.json'
 });
