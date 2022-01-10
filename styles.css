@@ -12,7 +12,7 @@ body>div {
 	padding-top: 5vh;
 }
 .space_block {
-	background-image: url(images/background_2_bottom.png);
+	background-image: url(images/background_2_bottom.svg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	height:15vh;
@@ -30,7 +30,7 @@ body>div {
 }
 
 .block3 {
-	background-image: url(images/background_2_top.png);
+	background-image: url(images/background_2_top.svg);
 	padding: 2vw;
 }
 
@@ -39,7 +39,7 @@ body>div {
 }
 
 .block5 {
-	background-image: url(images/background_2_top.png), url(images/background_5.png);
+	background-image: url(images/background_2_top.svg), url(images/background_5.png);
 	padding-top: 10%;
 }
 
