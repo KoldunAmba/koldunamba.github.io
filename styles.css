@@ -53,6 +53,10 @@ video {
 	position: relative;
 }
 
+.hidden {
+	display: none;
+}
+
 .block3 {
 	background-image: url(images/background_2_top.png);
 	padding: 2vw;
