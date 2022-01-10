@@ -39,27 +39,6 @@ body>div {
 	background-position: center;
 }
 
-.progress {
-	display: flex;
-	overflow: visible;
-}
-#progress1 {
-	margin-top: -10px;
-	margin-left: -10px;
-	width: 2.25vw;
-	height: 2.25vw;
-}
-#progress2 {
-	margin-left: 10px;
-	margin-top: -10px;
-	width: 2.25vw;
-	height: 2.25vw;
-}
-#progress3 {
-	margin-top: -5px;
-	width: 2.25vw;
-	height: 2.25vw;
-}
 .block3 {
 	background-image: url(images/background_2_top.png);
 	padding: 2vw;
