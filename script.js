@@ -46,27 +46,27 @@ var animation6 = bodymovin.loadAnimation({
 	path: 'lottie/gift.json'
 });
 
-squares.addEventListener("mouseenter", function () {
+animation1.addEventListener("mouseenter", function () {
     animation1.play();
 });
 
-squares.addEventListener("mouseenter", function () {
+animation2.addEventListener("mouseenter", function () {
     animation2.play();
 });
 
-squares.addEventListener("mouseenter", function () {
+animation3.addEventListener("mouseenter", function () {
     animation3.play();
 });
 
-squares.addEventListener("mouseenter", function () {
+animation4.addEventListener("mouseenter", function () {
     animation4.play();
 });
 
-squares.addEventListener("mouseenter", function () {
+animation5.addEventListener("mouseenter", function () {
     animation5.play();
 });
 
-squares.addEventListener("mouseenter", function () {
+animation6.addEventListener("mouseenter", function () {
     animation6.play();
 });
 
