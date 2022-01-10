@@ -138,3 +138,19 @@ function pauseAnim(anim) {
     }
 }
 
+var count = 1;
+var first = document.getElementById("first");
+var second = document.getElementById("second");
+var third = document.getElementById("third");
+var btn = document.getElementById("btn");
+
+function btnclk() {
+  if (ul.style.flexDirection == "row") {
+    return ul.style.flexDirection = "column"
+  };
+  if (ul.style.flexDirection == "column") {
+    return ul.style.flexDirection = "row"
+  }
+};
+
+btn.onclick = btnclk;
