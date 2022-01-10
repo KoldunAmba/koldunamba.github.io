@@ -23,43 +23,6 @@ body>div {
 	margin-top: -1vh;
 	background-color: #5551FF;
 	padding-top: 12.1vw;
-
-}
-
-.anim {
-	height: 8.3vw;
-	width: 8.3vw;
-}
-
-.nxt_btn {
-	margin-top: 7vw;
-	width: 7vw;
-	height: 7vw;
-	border: none;
-	background: transparent;
-	background-image: url("images/next_bt.svg");
-	background-size: 30% 30%;
-	background-repeat: no-repeat;
-	background-position: center;
-
-}
-
-.nxt_btn:hover {
-	cursor: pointer;
-}
-
-.video {
-	position: absolute;
-	z-index: 3000;
-	height: 43vw;
-	width: 21.7vw;
-	
-}
-video {
-	margin: 25px 10px 20px;
-	height: 39vw;
-	width: 20vw;
-	position: relative;
 }
 
 .hidden {
@@ -77,7 +40,6 @@ video {
 
 .block5 {
 	background-image: url(images/background_2_top.png), url(images/background_5.png);
-
 	padding-top: 10%;
 }
 
@@ -107,6 +69,42 @@ video {
 
 .left {
 	float: left;
+}
+
+
+.anim {
+	height: 8.3vw;
+	width: 8.3vw;
+}
+
+.nxt_btn {
+	margin-top: 7vw;
+	width: 7vw;
+	height: 7vw;
+	border: none;
+	background: transparent;
+	background-image: url("images/next_bt.svg");
+	background-size: 30% 30%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.nxt_btn:hover {
+	cursor: pointer;
+}
+
+.video {
+	position: absolute;
+	z-index: 3000;
+	height: 43vw;
+	width: 21.7vw;
+	
+}
+video {
+	margin: 25px 10px 20px;
+	height: 39vw;
+	width: 20vw;
+	position: relative;
 }
 
 .icon {
@@ -141,7 +139,6 @@ video {
 	background-image: url(images/illustration_1.png);
 	background-size: cover;
 	margin-left: auto;
-
 	height: 100vh;
 	width: 60%;
 }
@@ -195,11 +192,10 @@ video {
 	color: #8A8A8E;
 	text-decoration: none;
 }
+
 .link:hover {
 	color: black;
 }
-
-
 
 .btn {
 	height: 3.1vw;
@@ -207,9 +203,11 @@ video {
 	background-color: #605BFF;
 	border-radius: 25px;
 }
+
 .logo {
 	height: 3.1vw;
 }
+
 .btn:hover, .appstore:hover {
 	box-shadow: 0px 0px 4px 2px #605BFF;
 }
@@ -242,7 +240,6 @@ video {
 }
 
 .normal_text1 {
-	
 	color: #8A8A8E;
 	font-size: 20px;
 }
@@ -324,8 +321,6 @@ src: url("fonts/Montserrat-Bold.ttf") format("truetype");
 font-style: normal; 
 font-weight: normal; 
 }
-
-
 
 @font-face{
 font-family: "Montserrat-SemiBold";
