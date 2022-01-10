@@ -102,27 +102,27 @@ squares6.addEventListener("mouseenter", function () {
 });
 
 squares1.addEventListener("mouseleave", function () {
-  this.gotoAndStop(0);
+  this.gotoAndStop(1);
 });
 
 squares2.addEventListener("mouseleave", function () {
-  this.gotoAndStop(0);
+  this.gotoAndStop(1);
 });
 
 squares3.addEventListener("mouseleave", function () {
-  this.gotoAndStop(0);
+  this.gotoAndStop(1);
 });
 
 squares4.addEventListener("mouseleave", function () {
-  this.gotoAndStop(0);
+  this.gotoAndStop(1);
 });
 
 squares5.addEventListener("mouseleave", function () {
-  this.gotoAndStop(0);
+  this.gotoAndStop(1);
 });
 
 squares6.addEventListener("mouseleave", function () {
-  this.gotoAndStop(0);
+  this.gotoAndStop(1);
 });
 
 var count = 1;
