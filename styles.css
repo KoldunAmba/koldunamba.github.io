@@ -23,7 +23,8 @@ body>div {
 	margin-top: -1vh;
 	background-color: #5551FF;
 }
-#anim {
+
+.anim {
 	height: 8.3vw;
 	width: 8.3vw;
 }
