@@ -1,9 +1,9 @@
-var squares1 = document.getElementById("anim1");
-var squares2 = document.getElementById("anim2");
-var squares3 = document.getElementById("anim3");
-var squares4 = document.getElementById("anim4");
-var squares5 = document.getElementById("anim5");
-var squares6 = document.getElementById("anim6");
+var squares1 = document.getElementById("anim11");
+var squares2 = document.getElementById("anim22");
+var squares3 = document.getElementById("anim33");
+var squares4 = document.getElementById("anim44");
+var squares5 = document.getElementById("anim55");
+var squares6 = document.getElementById("anim66");
 
 var progress1 = bodymovin.loadAnimation({
 	container: document.getElementById('progress1'),
