@@ -34,7 +34,7 @@ body>div {
 	width: 5vw;
 	height: 5vw;
 	background-image: url("images/next_bt.svg");
-	background-size: contain;
+	background-size: 50% 50%;
 	background-repeat: no-repeat;
 	background-position: center;
 }
