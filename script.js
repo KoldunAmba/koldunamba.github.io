@@ -142,15 +142,36 @@ var count = 1;
 var first = document.getElementById("first");
 var second = document.getElementById("second");
 var third = document.getElementById("third");
-var btn = document.getElementById("btn");
+var first_video = document.getElementById("first_video");
+var second_video = document.getElementById("second_video");
+var third_video = document.getElementById("third_video");
+var btn = document.getElementById("progress");
 
 function btnclk() {
-  if (ul.style.flexDirection == "row") {
-    return ul.style.flexDirection = "column"
+  if (count == 1) {
+  	first.classList.add("hidden");
+  	second.classList.remove('hidden');
+  	first_video.classList.add("hidden");
+  	second_video.classList.remove('hidden');
+  	count = 2;
+  	return
   };
-  if (ul.style.flexDirection == "column") {
-    return ul.style.flexDirection = "row"
+  if (count == 2) {
+  	second.classList.add('hidden');
+  	third.classList.remove('hidden');
+  	second_video.classList.add('hidden');
+  	third_video.classList.remove('hidden');
+  	count = 3;
+  	return
   }
+  if (count == 3) {
+  	first.classList.remove('hidden');
+  	third.classList.add('hidden');
+  	first_video.classList.remove('hidden');
+  	third_video.classList.add('hidden');
+  	count = 1;
+  	return
+  };
 };
 
 btn.onclick = btnclk;
