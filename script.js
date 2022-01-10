@@ -145,9 +145,9 @@ var third = document.getElementById("third");
 var first_video = document.getElementById("first_video");
 var second_video = document.getElementById("second_video");
 var third_video = document.getElementById("third_video");
-var progress1 = document.getElementById("progress11");
-var progress2 = document.getElementById("progress22");
-var progress3 = document.getElementById("progress33");
+var progress1 = document.getElementById("progress1");
+var progress2 = document.getElementById("progress2");
+var progress3 = document.getElementById("progress3");
 var btn = document.getElementById("progress");
 
 function btnclk() {
