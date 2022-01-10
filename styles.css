@@ -4,7 +4,7 @@ body {
 }
 body>div {
 	background-size: cover;
-	height: 100vh;
+	
 }
 .block1 {
 	background-image: url(images/background_1.png);
@@ -29,9 +29,40 @@ body>div {
 	width: 8.3vw;
 }
 
+.nxt_btn {
+
+	width: 2.25vw;
+	height: 2.25vw;
+	background-image: url("images/next_bt.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.progress {
+	display: flex;
+	overflow: visible;
+}
+#progress1 {
+	margin-top: -10px;
+	margin-left: -10px;
+	width: 2.25vw;
+	height: 2.25vw;
+}
+#progress2 {
+	margin-left: 10px;
+	margin-top: -10px;
+	width: 2.25vw;
+	height: 2.25vw;
+}
+#progress3 {
+	margin-top: -5px;
+	width: 2.25vw;
+	height: 2.25vw;
+}
 .block3 {
 	background-image: url(images/background_2_top.png);
-	padding-bottom: 30vh;
+	padding: 2vw;
 }
 
 .block4 {
@@ -49,7 +80,7 @@ body>div {
 }
 
 .block1_left {
-	width: 35.4vw;
+	width: 32.2vw;
 	margin-left: 18.75vw;
 	margin-top: 9.9vw;
 }
@@ -115,7 +146,7 @@ body>div {
 }
 
 .centre {
-	width:70%;
+	width:62.5vW;
 	padding-top: 10%;
 	margin-left: auto;
 	margin-right: auto;
@@ -128,8 +159,9 @@ body>div {
 }
 
 .card {
-	width: 27%;
-	padding: 2%;
+	width: 21.6%;
+	margin: 1%;
+	padding: 1%;
 }
 .card:hover {
 	border-radius: 20px;
@@ -165,14 +197,14 @@ body>div {
 }
 
 .appstore {
-	height:4.4vw;
+	height:4vw;
 	width: 12vw;
 	background-color: #605BFF;
 	border-radius: 50px;
 }
 
 .color_text{
-	font-size: 28px;
+	font-size: 32px;
 	font-weight: bold;
 	color: #605BFF;
 }
@@ -194,7 +226,7 @@ body>div {
 .normal_text1 {
 	
 	color: #8A8A8E;
-	font-size: 18px;
+	font-size: 20px;
 }
 
 .normal_text2 {
