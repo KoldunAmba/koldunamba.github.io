@@ -1,5 +1,4 @@
 var squares = document.getElementById("anim");
-var isComplete = true;
 var animation = bodymovin.loadAnimation({
 	container: document.getElementById('anim'),
 	renderer: 'svg',
@@ -19,20 +18,13 @@ function playAnim(anim, loop) {
     }
 }
 
+squares.addEventListener("mouseleave", function () {
+  animation.gotoAndStop(0);
+});
+
 function pauseAnim(anim) {
     if (!anim.isPaused) {
         anim.loop = false;
     }
 }
 
-
-svgContainer.addEventListener('mouseenter', function(){
-  if(isComplete){
-    squares.goToAndPlay(0);
-    isComplete = false;
-  }
-})
-
-squares.addEventListener('complete', function(){
-  isComplete = true;
-})
