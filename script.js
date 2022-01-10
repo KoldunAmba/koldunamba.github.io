@@ -5,6 +5,29 @@ var squares4 = document.getElementById("anim4");
 var squares5 = document.getElementById("anim5");
 var squares6 = document.getElementById("anim6");
 
+var progress1 = bodymovin.loadAnimation({
+	container: document.getElementById('progress1'),
+	renderer: 'svg',
+	loop: true,
+	autoplay: true,
+	path: 'lottie/progress_bar_1.json'
+});
+
+var progress2 = bodymovin.loadAnimation({
+	container: document.getElementById('progress2'),
+	renderer: 'svg',
+	loop: true,
+	autoplay: true,
+	path: 'lottie/progress_bar_2.json'
+});
+
+var progress3 = bodymovin.loadAnimation({
+	container: document.getElementById('progress3'),
+	renderer: 'svg',
+	loop: true,
+	autoplay: true,
+	path: 'lottie/progress_bar_3.json'
+});
 
 var animation1 = bodymovin.loadAnimation({
 	container: document.getElementById('anim1'),
@@ -114,3 +137,4 @@ function pauseAnim(anim) {
         anim.loop = false;
     }
 }
+
