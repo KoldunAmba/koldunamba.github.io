@@ -166,13 +166,13 @@ body>div {
 
 .appstore {
 	height:4.4vw;
-	width: 16.9vw;
+	width: 12vw;
 	background-color: #605BFF;
 	border-radius: 50px;
 }
 
 .color_text{
-	font-size: 48px;
+	font-size: 28px;
 	font-weight: bold;
 	color: #605BFF;
 }
@@ -194,7 +194,7 @@ body>div {
 .normal_text1 {
 	
 	color: #8A8A8E;
-	font-size: 28px;
+	font-size: 18px;
 }
 
 .normal_text2 {
