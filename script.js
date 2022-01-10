@@ -6,7 +6,7 @@ var squares5 = document.getElementById("anim5");
 var squares6 = document.getElementById("anim6");
 
 
-var animation = bodymovin.loadAnimation({
+var animation1 = bodymovin.loadAnimation({
 	container: document.getElementById('anim1'),
 	renderer: 'svg',
 	loop: true,
