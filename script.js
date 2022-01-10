@@ -145,6 +145,9 @@ var third = document.getElementById("third");
 var first_video = document.getElementById("first_video");
 var second_video = document.getElementById("second_video");
 var third_video = document.getElementById("third_video");
+var progress1 = document.getElementById("progress1");
+var progress2 = document.getElementById("progress2");
+var progress3 = document.getElementById("progress3");
 var btn = document.getElementById("progress");
 
 function btnclk() {
@@ -153,6 +156,8 @@ function btnclk() {
   	second.classList.remove('hidden');
   	first_video.classList.add("hidden");
   	second_video.classList.remove('hidden');
+  	progress1.classList.add("hidden");
+  	progress2.classList.remove('hidden');
   	count = 2;
   	return
   };
@@ -161,6 +166,8 @@ function btnclk() {
   	third.classList.remove('hidden');
   	second_video.classList.add('hidden');
   	third_video.classList.remove('hidden');
+  	progress2.classList.add('hidden');
+  	progress3.classList.remove('hidden');
   	count = 3;
   	return
   }
@@ -169,6 +176,8 @@ function btnclk() {
   	third.classList.add('hidden');
   	first_video.classList.remove('hidden');
   	third_video.classList.add('hidden');
+  	progress1.classList.remove('hidden');
+  	progress3.classList.add('hidden');
   	count = 1;
   	return
   };
