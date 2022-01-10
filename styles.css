@@ -44,6 +44,10 @@ body>div {
 
 }
 
+.nxt_btn:hover {
+	cursor: pointer;
+}
+
 .video {
 	position: absolute;
 	z-index: 3000;
@@ -260,7 +264,7 @@ video {
 
 .how {
 	font-size: 40px;
-	margin-bottom: 9vw;
+	margin-top: 9vw;
 }
 
 .footer {
