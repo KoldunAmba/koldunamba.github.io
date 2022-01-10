@@ -33,10 +33,10 @@ body>div {
 
 	width: 2.25vw;
 	height: 2.25vw;
-	background-image: url("images/next_bt.svg");
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
+}
+
+.arrow {
+	margin: 5px;
 }
 
 .block3 {
