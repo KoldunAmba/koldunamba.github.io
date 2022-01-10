@@ -22,6 +22,8 @@ body>div {
 .block2 {
 	margin-top: -1vh;
 	background-color: #5551FF;
+	padding-top: 12.1vw;
+
 }
 
 .anim {
@@ -30,13 +32,14 @@ body>div {
 }
 
 .nxt_btn {
-
+	margin-top: 7vw;
 	width: 5vw;
 	height: 5vw;
 	background-image: url("images/next_bt.svg");
 	background-size: 50% 50%;
 	background-repeat: no-repeat;
 	background-position: center;
+
 }
 
 .video {
@@ -142,6 +145,10 @@ video {
 	margin-right: auto;
 }
 
+.content_up {
+	align-items: normal;
+}
+
 .centre {
 	width:62.5vW;
 	padding-top: 10%;
@@ -233,12 +240,12 @@ video {
 
 .micro_text {
 	color: white;
-	font-size: 0.9em;
+	font-size: 20px;
 }
 
 .micro_text2 {
 	color: #C7C7CE;
-	font-size: 0.9em;
+	font-size: 20px;
 }
 
 .text_right {
@@ -247,6 +254,11 @@ video {
 
 .black {
 	color: #8A8A8E;
+}
+
+.how {
+	font-size: 40px;
+	margin-bottom: 9vw;
 }
 
 .footer {
@@ -277,6 +289,10 @@ video {
 
 .bold {
 	font-family: "Montserrat-Bold";
+}
+
+.white {
+	color: white;
 }
 
 @font-face {
