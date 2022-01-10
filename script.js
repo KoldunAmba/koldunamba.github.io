@@ -1,4 +1,12 @@
-var animation1 = bodymovin.loadAnimation({
+var squares1 = document.getElementById("anim1");
+var squares2 = document.getElementById("anim2");
+var squares3 = document.getElementById("anim3");
+var squares4 = document.getElementById("anim4");
+var squares5 = document.getElementById("anim5");
+var squares6 = document.getElementById("anim6");
+
+
+var animation = bodymovin.loadAnimation({
 	container: document.getElementById('anim1'),
 	renderer: 'svg',
 	loop: true,
@@ -46,27 +54,27 @@ var animation6 = bodymovin.loadAnimation({
 	path: 'lottie/gift.json'
 });
 
-animation1.addEventListener("mouseenter", function () {
+squares1.addEventListener("mouseenter", function () {
     animation1.play();
 });
 
-animation2.addEventListener("mouseenter", function () {
+squares2.addEventListener("mouseenter", function () {
     animation2.play();
 });
 
-animation3.addEventListener("mouseenter", function () {
+squares3.addEventListener("mouseenter", function () {
     animation3.play();
 });
 
-animation4.addEventListener("mouseenter", function () {
+squares4.addEventListener("mouseenter", function () {
     animation4.play();
 });
 
-animation5.addEventListener("mouseenter", function () {
+squares5.addEventListener("mouseenter", function () {
     animation5.play();
 });
 
-animation6.addEventListener("mouseenter", function () {
+squares6.addEventListener("mouseenter", function () {
     animation6.play();
 });
 
