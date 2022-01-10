@@ -78,6 +78,30 @@ squares6.addEventListener("mouseenter", function () {
     animation6.play();
 });
 
+squares1.addEventListener("mouseleave", function () {
+  animation.gotoAndStop(0);
+});
+
+squares2.addEventListener("mouseleave", function () {
+  animation.gotoAndStop(0);
+});
+
+squares3.addEventListener("mouseleave", function () {
+  animation.gotoAndStop(0);
+});
+
+squares4.addEventListener("mouseleave", function () {
+  animation.gotoAndStop(0);
+});
+
+squares5.addEventListener("mouseleave", function () {
+  animation.gotoAndStop(0);
+});
+
+squares6.addEventListener("mouseleave", function () {
+  animation.gotoAndStop(0);
+});
+
 function playAnim(anim, loop) {
     if(anim.isPaused) {
         anim.loop = loop;
