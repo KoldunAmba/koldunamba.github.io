@@ -33,12 +33,12 @@ body>div {
 
 .nxt_btn {
 	margin-top: 7vw;
-	width: 5vw;
-	height: 5vw;
+	width: 7vw;
+	height: 7vw;
 	border: none;
 	background: transparent;
 	background-image: url("images/next_bt.svg");
-	background-size: 50% 50%;
+	background-size: 30% 30%;
 	background-repeat: no-repeat;
 	background-position: center;
 
