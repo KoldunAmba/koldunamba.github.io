@@ -286,9 +286,6 @@ video {
 	min-width: 100px;
 }
 
-#quote {
-}
-
 .semibold {
 	font-family: "Montserrat-SemiBold";
 }
@@ -299,6 +296,10 @@ video {
 
 .white {
 	color: white;
+}
+
+.gray {
+	color: #8A8A8E;
 }
 
 @font-face {
