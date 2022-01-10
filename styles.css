@@ -31,12 +31,27 @@ body>div {
 
 .nxt_btn {
 
-	width: 2.25vw;
-	height: 2.25vw;
+	width: 5vw;
+	height: 5vw;
 	background-image: url("images/next_bt.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
+}
+
+.video {
+	position: absolute;
+	z-index: 3000;
+	height: 43vw;
+	width: 21.7vw;
+	
+}
+video {
+	margin-top: 10px;
+	margin-left: 10px;
+	height: 40vw;
+	width: 20vw;
+	position: relative;
 }
 
 .block3 {
