@@ -98,6 +98,8 @@ video {
 
 .ps {
 	width: 30%;
+	font-size: 16px;
+	color: #8A8A8E;
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
@@ -109,6 +111,12 @@ video {
 
 .icon {
 	opacity: 0.6;
+}
+
+.icon2 {
+	height: 2.9vw;
+	width: 2.9vw;
+	margin-right: 10px;
 }
 
 .flex {
@@ -241,17 +249,17 @@ video {
 
 .normal_text2 {
 	color: white;
-	font-size: 1.5em;
+	font-size: 18px;
 }
 
 .micro_text {
 	color: white;
-	font-size: 20px;
+	font-size: 14px;
 }
 
 .micro_text2 {
 	color: #C7C7CE;
-	font-size: 20px;
+	font-size: 16px;
 }
 
 .text_right {
