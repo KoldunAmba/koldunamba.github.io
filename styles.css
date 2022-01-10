@@ -47,9 +47,8 @@ body>div {
 	
 }
 video {
-	margin-top: 10px;
-	margin-left: 10px;
-	height: 40vw;
+	margin: 20px 10px;
+	height: 39vw;
 	width: 20vw;
 	position: relative;
 }
