@@ -35,6 +35,8 @@ body>div {
 	margin-top: 7vw;
 	width: 5vw;
 	height: 5vw;
+	border: none;
+	background: transparent;
 	background-image: url("images/next_bt.svg");
 	background-size: 50% 50%;
 	background-repeat: no-repeat;
